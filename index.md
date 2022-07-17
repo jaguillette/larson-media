@@ -1,4 +1,6 @@
-## Larson Kids: Tape 1
+## Larson Media Archive
+
+### Kids Tape 1
 
 <figure>
 	<figcaption>Part 1</figcaption>
