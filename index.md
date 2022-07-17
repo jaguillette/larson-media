@@ -15,6 +15,11 @@
 ### Kids Tape 2
 
 <figure>
-	<figcaption>Track 1</figcaption>
+	<figcaption>Side 1</figcaption>
 	<audio controls src="https://jagpublic.s3.amazonaws.com/larson+kids+2.mp3">If you see this, your browser does not support the audio element</audio>
+</figure>
+
+<figure>
+	<figcaption>Side 2 - This one has lower quality audio and some Swedish towards the middle.</figcaption>
+	<audio controls src="https://jagpublic.s3.amazonaws.com/Larson+kids+2b.mp3">If you see this, your browser does not support the audio element</audio>
 </figure>
