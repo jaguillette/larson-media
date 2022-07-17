@@ -30,3 +30,8 @@
 	<figcaption>Side 1</figcaption>
 	<audio controls src="https://jagpublic.s3.amazonaws.com/Larson+kids+3a.mp3">If you see this, your browser does not support the audio element</audio>
 </figure>
+
+<figure>
+	<figcaption>Side 2 - Audio came in at a low volume and was boosted as best I could</figcaption>
+	<audio controls src="https://jagpublic.s3.amazonaws.com/Larson+kids+3b.mp3">If you see this, your browser does not support the audio element</audio>
+</figure>
