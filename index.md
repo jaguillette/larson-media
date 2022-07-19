@@ -35,4 +35,4 @@
 
 ### Slides
 
-{% include image.html caption="Elsie and the girls" src="https://jagpublic.s3.amazonaws.com/pg234.1.jpg" alt="Photo of Elsie Larson and her three daughters %}
+{% include image.html caption="Elsie and the girls" src="https://jagpublic.s3.amazonaws.com/pg234.1.jpg" alt="Photo of Elsie Larson and her three daughters" %}
