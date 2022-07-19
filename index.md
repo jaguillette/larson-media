@@ -2,10 +2,7 @@
 
 ### Kids Tape 1
 
-<figure>
-	<figcaption>Part 1</figcaption>
-	<audio controls src="https://jagpublic.s3.amazonaws.com/larson+kids+1.mp3">If you see this, your browser does not support the audio element</audio>
-</figure>
+{% include audio.html name="Part 1" url="https://jagpublic.s3.amazonaws.com/larson+kids+1.mp3" %}
 
 <figure>
 	<figcaption>Part 2</figcaption>
@@ -35,3 +32,7 @@
 	<figcaption>Side 2 - Audio came in at a low volume and was boosted as best I could</figcaption>
 	<audio controls src="https://jagpublic.s3.amazonaws.com/Larson+kids+3b.mp3">If you see this, your browser does not support the audio element</audio>
 </figure>
+
+### Slides
+
+{% include image.html caption="Elsie and the girls" src="https://jagpublic.s3.amazonaws.com/pg234.1.jpg" alt="Photo of Elsie Larson and her three daughters %}
