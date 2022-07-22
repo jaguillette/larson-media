@@ -4,34 +4,25 @@
 
 {% include audio.html name="Part 1" url="https://jagpublic.s3.amazonaws.com/larson+kids+1.mp3" %}
 
-<figure>
-	<figcaption>Part 2</figcaption>
-	<audio controls src="https://jagpublic.s3.amazonaws.com/larson+kids+1.2.mp3">If you see this, your browser does not support the audio element</audio>
-</figure>
+{% include audio.html name="Part 2" url="https://jagpublic.s3.amazonaws.com/larson+kids+1.2.mp3" %}
 
 ### Kids Tape 2
 
-<figure>
-	<figcaption>Side 1</figcaption>
-	<audio controls src="https://jagpublic.s3.amazonaws.com/larson+kids+2.mp3">If you see this, your browser does not support the audio element</audio>
-</figure>
+{% include audio.html name="Side 1" url="https://jagpublic.s3.amazonaws.com/larson+kids+2.mp3" %}
 
-<figure>
-	<figcaption>Side 2 - This one has lower quality audio and some Swedish towards the middle.</figcaption>
-	<audio controls src="https://jagpublic.s3.amazonaws.com/Larson+kids+2b.mp3">If you see this, your browser does not support the audio element</audio>
-</figure>
+{% include audio.html name="Side 2 - This one has lower quality audio and some Swedish towards the middle." url="https://jagpublic.s3.amazonaws.com/Larson+kids+2b.mp3" %}
 
 ### Kids Tape 3
 
-<figure>
-	<figcaption>Side 1</figcaption>
-	<audio controls src="https://jagpublic.s3.amazonaws.com/Larson+kids+3a.mp3">If you see this, your browser does not support the audio element</audio>
-</figure>
+{% include audio.html name="Side 1" url="https://jagpublic.s3.amazonaws.com/Larson+kids+3a.mp3" %}
 
-<figure>
-	<figcaption>Side 2 - Audio came in at a low volume and was boosted as best I could</figcaption>
-	<audio controls src="https://jagpublic.s3.amazonaws.com/Larson+kids+3b.mp3">If you see this, your browser does not support the audio element</audio>
-</figure>
+{% include audio.html name="Side 2 - Audio came in at a low volume and was boosted as best I could" url="https://jagpublic.s3.amazonaws.com/Larson+kids+3b.mp3" %}
+
+### SAC Party - Bon Voyage to Sweden
+
+{% include audio.html name="Side 1" url="https://jagpublic.s3.amazonaws.com/SAC+party+1956+side+1.mp3" %}
+
+{% include audio.html name="Side 2" url="https://jagpublic.s3.amazonaws.com/SAC+party+1956+side+2.mp3" %}
 
 ### Slides
 
