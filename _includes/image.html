@@ -1,4 +1,6 @@
 <figure>
     <figcaption>{{ include.caption }}</figcaption>
-    <a href="{{ include.src }}"><img src="{{ include.src }}" alt="{{ include.alt }}"></a>
+    <a href="https://jagpublic.s3.amazonaws.com/{{ include.src }}">
+        <img src="https://jagpublic.s3.amazonaws.com/thumbnails/{{ include.src }}" alt="{{ include.alt }}">
+    </a>
 </figure>
