@@ -15,3 +15,11 @@ DEFAULT_PAGINATION = 20
 #RELATIVE_URLS = True
 
 THEME = "./theme"
+
+STATIC_PATHS = ['extra/robots.txt']
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'}
+}
+
+ARTICLE_ORDER_BY = "title"

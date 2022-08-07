@@ -1,4 +1,4 @@
-Title: Tape: Kids 3
+Title: Kids 3
 Date: 2022-08-06
 Thumbnail: fontawesome/volume.svg
 Audio: kids-3/Larson kids 3a.mp3,kids-3/Larson kids 3b.mp3

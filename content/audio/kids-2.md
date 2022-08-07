@@ -1,4 +1,4 @@
-Title: Tape: Kids 2
+Title: Kids 2
 Date: 2022-08-06
 Thumbnail: fontawesome/volume.svg
 Audio: kids-2/larson kids 2.mp3,kids-2/Larson kids 2b.mp3
