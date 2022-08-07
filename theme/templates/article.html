@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block page_header %}{{ article.title }}{% endblock %}
+
+{% block content %}
+
+    {% if article.audio %}
+        {% for audio in article.audio.split(',') %}
+        <div class="col-md-12 py-3">
+            <audio style="width:100%" controls src="{{ MEDIA_BASE }}/{{ audio }}">Audio not supported in your browser</audio>
+            <a href="{{ MEDIA_BASE }}/{{ audio }}" download>Download file</a>
+        </div>
+        {% endfor %}
+    {% endif %}
+
+    {% if article.image %}
+    <div class="col-md-12">
+        <div class="card mb-3 box-shadow">
+            <a href="{{ MEDIA_BASE }}/{{ article.image }}">
+                <img class="card-img-top" src="{{ MEDIA_BASE }}/{{ article.image }}" alt="{{ article.alt_text }}">
+            </a>
+        </div>
+    </div>
+    {% endif %}
+
+    {{ article.content }}
+
+    {% if article.tags %}
+        <div class="text-center">
+            <h2>Tags</h2>
+            <ul>
+                {% for tag in article.tags %}
+                    <li class="list-inline-item"><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
+{% endblock %}

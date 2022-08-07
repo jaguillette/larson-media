@@ -1,0 +1,19 @@
+<footer class="footer">
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="navbar-collapse justify-content-md-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}">Home</a>
+                </li>
+                {% for category, articles in categories %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/category/{{ category }}">{{ category|title }}</a>
+                </li>
+                {% endfor %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/tags">Tags</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</footer>

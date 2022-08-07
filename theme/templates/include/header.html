@@ -1,0 +1,28 @@
+<header>
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="{{ SITEURL }}">Home</a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#main-nav-items"
+                    aria-controls="main-nav-items"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav-items">
+                <ul class="navbar-nav mr-auto">
+                    {% for category, articles in categories %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ SITEURL }}/{{ category.url }}">{{ category|title }}</a>
+                    </li>
+                    {% endfor %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ SITEURL }}/tags">Tags</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
